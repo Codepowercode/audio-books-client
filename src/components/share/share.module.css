@@ -1,0 +1,13 @@
+.shareContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 10px;
+}
+.shareContainer span {
+  font-family: PoppinsRegular, sans-serif;
+}
+.shareContainerFooter button {
+ margin: 20px;
+}

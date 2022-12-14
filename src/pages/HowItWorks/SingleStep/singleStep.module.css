@@ -1,0 +1,42 @@
+.step-box {
+    max-width: 370px;
+}
+
+.border-area {
+    position: relative;
+}
+
+.step {
+    text-align: center;
+    min-height: 255px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-style {
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.rtl {
+    transform: rotate(180deg);
+}
+
+.text-ltr {
+    margin-right: 34px;
+}
+
+.text-rtl {
+    margin-left: 34px;
+}
+
+.text {
+    font-size: 18px;
+    line-height: 27px;
+    font-family: PoppinsMedium, sans-serif;
+    color: rgba(100, 100, 100, 1);
+    max-inline-size: 249px;
+    position: absolute;
+}

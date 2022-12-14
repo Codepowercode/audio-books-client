@@ -1,0 +1,38 @@
+.main-container {
+    padding: 10px;
+
+}
+
+.container {
+    max-width: 1384px;
+    display: flex;
+    margin: 164px auto 0;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: end;
+}
+
+.left-area > img {
+    max-width: 682px;
+}
+
+.right-area {
+    max-width: 560px;
+    width: 100%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 35px;
+}
+
+.cvv-expiration-container {
+    display: flex;
+    gap: 12px;
+}
+
+.btn-container {
+    margin-top: 25px;
+}

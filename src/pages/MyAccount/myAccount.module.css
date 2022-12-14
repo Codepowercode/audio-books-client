@@ -1,0 +1,45 @@
+.main-container {
+    background-color: #FFFFFF;
+    background-image: url("./../../assets/images/bookPageBgimg.png");
+    height: 100%;
+    padding: 45px 10px;
+}
+
+.categories-container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 62px auto 180px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.category {
+    border: 1px solid rgba(50, 50, 50, 0.1);
+    background-color: rgba(248, 247, 249, 1);
+    box-shadow: 0px 4px 4px 0px rgba(209, 209, 209, 0.2);
+    padding: 45px 20px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    border-radius: 6px;
+
+}
+
+.category > span {
+    font-family: PoppinsSemiBold, sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    color: rgba(25, 3, 43, 1);
+}
+
+.category > p {
+    font-family: PoppinsRegular, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(100, 100, 100, 1);
+    padding: 0;
+    margin: 15px 0 0 ;
+}

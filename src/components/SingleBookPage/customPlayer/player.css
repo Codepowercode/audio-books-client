@@ -1,0 +1,62 @@
+.playerContainer {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+  font-family: inherit;
+  width: 100%;
+  padding: 10px 15px;
+  background-color: #fff;
+  box-shadow: 0 0 3px 0 rgb(0 0 0 / 20%);
+}
+.rhap_container {
+  background-color: unset !important;
+  box-shadow: unset !important;
+  padding: unset;
+}
+.playerContainer-content {
+  display: flex;
+  flex-direction: column;
+  padding-top: 15px;
+}
+.playerContainer-content select {
+  /* color: #ffff; */
+  width: 100%;
+  max-width: 100px;
+}
+.playerContainer-content-select {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.playerContainer-content-select label {
+  margin-bottom: unset !important;
+  font-family: PoppinsRegular, sans-serif;
+  font-size: 14px;
+}
+.playerContainer-content-count p {
+  margin-bottom: 10px;
+  text-align: start;
+  font-family: PoppinsRegular, sans-serif;
+  font-size: 14px;
+}
+.rhap_header {
+  font-family: PoppinsRegular, sans-serif;
+  font-size: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.rhap_volume-button,
+.rhap_main-controls-button {
+  color: #58804b;
+}
+
+.rhap_volume-indicator,
+.rhap_progress-indicator,
+.rhap_progress-filled,
+.rhap_volume-bar {
+  background: #58804b;
+}
+.rhap_additional-controls {
+  display: none;
+}

@@ -1,0 +1,82 @@
+.container {
+  border: 1px solid rgba(50, 50, 50, 0.1);
+  padding: 12px 20px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  min-height: 77px;
+  cursor: pointer;
+}
+
+.card-info-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 92%;
+}
+.container-img {
+  display: flex;
+  justify-content: space-between;
+  max-width: 150px;
+  align-items: center;
+  width: 100%;
+}
+/* .card-info-container > div {
+  display: flex;
+  justify-content: space-between;
+  max-width: 150px;
+  align-items: center;
+  width: 100%;
+} */
+.container-img img {
+  width: 100%;
+  object-fit: contain;
+}
+.card-info-container .card-icon {
+  max-width: 61px;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  font-family: PoppinsRegular, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(46, 55, 62, 1);
+}
+
+.card-info > span:last-child {
+  color: rgba(46, 55, 62, 0.6);
+}
+
+.container > img {
+  max-width: 24px;
+}
+
+.radio-btn {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 1px solid rgba(88, 128, 75, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+}
+
+.radio-btn-circle {
+  background-color: rgba(88, 128, 75, 1);
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.new-card {
+  font-family: PoppinsRegular, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(46, 55, 62, 1);
+}

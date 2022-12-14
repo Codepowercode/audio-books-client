@@ -1,0 +1,27 @@
+.audioBook {
+  display: inline;
+  position: relative;
+}
+.audioBookDelete {
+  position: absolute;
+  top: 36px;
+  right: -41px;
+}
+.audioBookDelete img {
+  cursor: pointer;
+  width: 100%;
+  max-width: 25px;
+}
+.audioContainer {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 52px;
+  max-width: 1024px;
+}
+.audioContainer_title{
+  display: flex;
+  align-items: center;
+  padding: 0;
+  justify-content: center;
+}

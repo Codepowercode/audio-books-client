@@ -1,0 +1,39 @@
+.production-area {
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+    margin-top: 30px;
+}
+
+.production-area > div {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.status {
+    font-family: PoppinsLight, sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(137, 137, 137, 1);
+}
+
+.status-value {
+    font-family: PoppinsRegular, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(178, 65, 69, 1);
+}
+.ready-in {
+    font-family: PoppinsRegular, sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(100, 100, 100, 1);
+}
+
+.ready-in-value {
+    font-family: PoppinsSemiBold, sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(46, 55, 62, 1);
+}

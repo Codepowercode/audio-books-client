@@ -1,0 +1,195 @@
+/*!*@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');*!*/
+
+.header {
+  background-color: #ffff;
+  padding: 13px 10px;
+  box-shadow: 0px 4px 20px 0px rgba(73, 73, 73, 0.25);
+}
+
+.container > a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1640px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-sign-container {
+  /* display: flex; */
+  /* align-items: center; */
+  gap: 25px;
+  max-width: 200px;
+  width: 100%;
+  padding-left: 10px;
+  /*grid-template-columns: 1fr 42%;*/
+}
+
+.header-button-container {
+  max-width: 250px;
+  display: flex;
+  gap: 15px;
+  width: 100%;
+  align-items: center;
+}
+.header-button-container :nth-child(2) {
+  font-size: 17px !important;
+}
+
+.logo {
+  padding: 10px 20px;
+}
+
+.search-side {
+  display: flex;
+  gap: 15px;
+  max-width: 320px;
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  nav {
+    width: auto;
+    max-width: 0px;
+  }
+}
+
+/*.navbar {*/
+/*    box-shadow: 0px 4px 20px rgba(73, 73, 73, 0.25);*/
+/*}*/
+
+/*.logo {*/
+/*    padding: 10px 20px;*/
+/*    background-color: #C4C4C4;*/
+/*}*/
+
+/*.btn-dropdown:focus {*/
+/*    outline: none;*/
+/*}*/
+
+/*.f-14 {*/
+/*    font-size: 14px;*/
+/*}*/
+
+/*.navbar_collapse {*/
+/*    margin-left: 80px;*/
+/*}*/
+
+/*.nav_link {*/
+/*    !*margin-right: 50px;*!*/
+/*    font-family: 'Poppins';*/
+/*    font-style: normal;*/
+/*    font-weight: 500;*/
+/*    font-size: 18px;*/
+/*    line-height: 27px;*/
+/*    text-align: center;*/
+/*    text-transform: capitalize;*/
+/*    color: #4D4D4D;*/
+/*}*/
+
+/*.active {*/
+/*    color: #00A591 !important;*/
+/*    text-decoration: underline !important;*/
+/*}*/
+
+/*.btn_sign_in {*/
+/*    background-color: #00A591;*/
+/*    font-family: 'Poppins';*/
+/*    font-style: normal;*/
+/*    font-weight: 500;*/
+/*    font-size: 18px;*/
+/*    line-height: 27px;*/
+/*    text-align: center;*/
+/*    text-transform: uppercase;*/
+/*    color: #FFFFFF;*/
+/*}*/
+
+/*.sign_up_text {*/
+/*    font-family: 'Poppins';*/
+/*    font-style: normal;*/
+/*    font-weight: 500;*/
+/*    font-size: 18px;*/
+/*    line-height: 27px;*/
+/*    text-align: center;*/
+/*    text-transform: uppercase;*/
+/*    color: #00A591;*/
+/*}*/
+
+/*.earth {*/
+/*    font-family: 'Poppins';*/
+/*    font-style: normal;*/
+/*    font-weight: 400;*/
+/*    line-height: 21px;*/
+/*    text-align: center;*/
+/*    text-transform: uppercase;*/
+/*    color: #00A591 !important;*/
+/*}*/
+
+/*.navbar-nav.mr-auto {*/
+/*    align-items: center;*/
+/*}*/
+
+/*form > .input-group {*/
+/*    max-width: 222px;*/
+/*}*/
+
+/*.navbar-nav {*/
+/*    justify-content: space-between;*/
+/*    width: 100%;*/
+/*    grid-gap: 10px;*/
+/*    margin-right: 80px;*/
+
+/*}*/
+
+/*@media only screen and (max-width: 1199px) {*/
+/*    .navbar_collapse {*/
+/*        display: grid;*/
+/*        justify-content: center;*/
+/*        margin-left: 0;*/
+/*    }*/
+
+/*    .nav_link,*/
+/*    .dropdown.show.mr-sm-3 {*/
+/*        margin-right: 0 !important;*/
+/*    }*/
+
+/*    .navbar-nav.mr-auto {*/
+/*        margin: auto;*/
+/*    }*/
+
+/*    .dropdown,*/
+/*    .form-inline {*/
+/*        display: flex;*/
+/*        justify-content: center;*/
+/*    }*/
+/*}*/
+
+/*@media only screen and (max-width: 1440px) {*/
+
+/*    .form-inline.my-2.my-lg-0.mr-sm-3,*/
+/*    .dropdown.show.mr-sm-3 {*/
+/*        margin-right: 0 !important;*/
+/*    }*/
+
+/*    .navbar-expand-xl.navbar-nav {*/
+/*        align-items: center;*/
+/*    }*/
+/*}*/
+
+/*@media only screen and (max-width: 1710px) {*/
+/*    .navbar_collapse {*/
+/*        margin-left: 25px;*/
+/*    }*/
+
+/*    .nav_link {*/
+/*        margin-right: 5px;*/
+/*    }*/
+/*}*/

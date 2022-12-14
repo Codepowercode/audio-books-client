@@ -1,0 +1,57 @@
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    font-family: PoppinsRegular, sans-serif;
+    padding: 1px;
+    font-size: 14px;
+    line-height: 21px;
+    background-color: rgba(234, 231, 226, 1);
+    align-items: center;
+    border-radius: 6px;
+    color: rgba(172, 172, 172, 1);
+}
+
+.main-container > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+
+.main-container span {
+    text-align: center;
+    padding: 9px;
+}
+
+.active-lang {
+    color: rgba(88, 128, 75, 1);
+    background-color: #FFFFFF;
+    width: 100%;
+    border-radius: 6px;
+
+}
+
+
+
+
+/*@media screen and (max-width: 767px) {*/
+
+/*    .main-container {*/
+/*        background-color: rgba(33, 33, 33, 0.06);*/
+/*        border-radius: 34px;*/
+/*        max-width: 335px;*/
+/*        padding: 2px;*/
+/*        margin: 0 auto 22px;*/
+
+/*    }*/
+
+
+
+
+
+
+/*}*/

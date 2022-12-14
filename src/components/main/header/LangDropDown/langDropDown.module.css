@@ -1,0 +1,63 @@
+.main-container {
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(50, 50, 50, 0.15);
+    box-shadow: 0px 4px 4px 0px rgba(209, 209, 209, 0.2), 0px -4px 4px 0px rgba(225, 225, 225, 0.2);
+    border-radius: 6px;
+    padding: 9px 7px 9px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 81px;
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+}
+
+.globe-icon {
+    max-width: 22px;
+}
+
+.arrow-icon {
+    max-width: 13px;
+}
+
+.main-container > span {
+    text-transform: uppercase;
+    font-family: PoppinsRegular, sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(88, 128, 75, 1);
+
+}
+
+.dd-items {
+    position: absolute;
+    list-style: none;
+    background-color: rgba(255, 255, 255, 1);
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0;
+    margin: 0;
+    border: 1px solid rgba(50, 50, 50, 0.15);
+    border-radius: 6px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 1;
+}
+
+.dd-items > li {
+    border-right: 1px solid rgba(50, 50, 50, 0.15);
+    padding: 5px 10px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+
+.dd-items > li:last-child {
+    border: none;
+}

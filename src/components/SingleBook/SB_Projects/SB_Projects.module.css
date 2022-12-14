@@ -1,0 +1,40 @@
+.projects-area {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.book-info {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+}
+
+.book-info > div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.book-info-values {
+    font-family: PoppinsSemiBold, sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(46, 55, 62, 1);
+}
+
+.goal {
+    color: rgba(178, 65, 69, 1);
+
+}
+
+.book-info-titles {
+    font-family: HelveticaRegular, sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(100, 100, 100, 1);
+}
+

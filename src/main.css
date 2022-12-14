@@ -1,0 +1,33 @@
+
+
+
+@font-face {
+    font-family: PoppinsBold;
+    src: url('./../src/assets/fonts/Poppins/Poppins_Bold.ttf');
+}
+@font-face {
+    font-family: PoppinsSemiBold;
+    src: url('./../src/assets/fonts/Poppins/Poppins_SemiBold.ttf');
+}
+
+@font-face {
+    font-family: PoppinsRegular;
+    src: url('./../src/assets/fonts/Poppins/Poppins_Regular.ttf');
+}
+@font-face {
+    font-family: PoppinsLight;
+    src: url('./../src/assets/fonts/Poppins/Poppins_Light.ttf');
+}
+
+@font-face {
+    font-family: PoppinsMedium;
+    src: url('./../src/assets/fonts/Poppins/Poppins_Medium.ttf');
+}
+
+.RaLayout-content {
+    max-width: 1650px;
+    width: 100%;
+}
+.list-page {
+    overflow-x: scroll;
+}

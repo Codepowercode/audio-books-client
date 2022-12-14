@@ -1,0 +1,84 @@
+/*.sample-two-style {*/
+/*    font-family: MontserratSemiBold, sans-serif;*/
+/*    font-size: 16px;*/
+/*    line-height: 19px;*/
+/*    color: #FFFFFF;*/
+/*    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.12);*/
+/*    background-color: rgba(107, 159, 128, 1);*/
+/*    border-radius: 4px;*/
+/*    border: none;*/
+/*    padding: 15px;*/
+/*    width: 100%;*/
+/*    cursor: pointer;*/
+/*}*/
+.text-button {
+    cursor: pointer;
+    color: rgba(88, 128, 75, 1);
+    font-family: PoppinsMedium, sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    border: none;
+    background-color: transparent;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.primary {
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    font-family: PoppinsMedium, sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    border: none;
+    background-color: rgba(88, 128, 75, 1);
+    border-radius: 6px;
+    padding: 14px;
+    text-transform: uppercase;
+}
+
+.default-style ,
+.cancel-button {
+    padding: 14px;
+    border: 1px solid rgba(50, 50, 50, 0.1);
+    font-family: PoppinsMedium, sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+.cancel-button {
+    background-color: rgba(206, 206, 206, 1);
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 6px;
+    text-transform: uppercase;
+
+}
+
+.link-button {
+    font-family: PoppinsSemiBold, sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(88, 128, 75, 1);
+    border: none;
+    text-decoration: underline;
+    padding: 0;
+    width: max-content;
+    background-color: transparent;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.primary:disabled,
+.primary:disabled:hover,
+.primary:disabled:active {
+    background-color: rgba(194, 194, 194, 1);
+    cursor: not-allowed;
+}
+

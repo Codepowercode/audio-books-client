@@ -1,0 +1,34 @@
+.main-fund {
+    /*background-image: url('../../assets/images/fund-group-background.png');*/
+    padding: 60px 20px;
+    background-color: rgba(170, 187, 93, 1);
+}
+
+.fund-head {
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+.fund-head p {
+    margin-top: 18px;
+    color: white;
+}
+
+.fund-list {
+    margin: 60px auto 0;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(25%, 250px));
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.page-title-container span:first-child {
+    color: rgba(255, 255, 255, 0.03);
+}
+
+.page-title-container span:last-child {
+    color: rgba(255, 255, 255, 1);
+}

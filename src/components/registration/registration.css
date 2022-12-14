@@ -1,0 +1,9 @@
+.registration-container {
+    height: calc(100vh - 74px);
+}
+
+/* .registration-banner {
+    background-image: url("../../assets/images/registration-banner.png");
+    background-position: center;
+    background-size: cover;
+} */

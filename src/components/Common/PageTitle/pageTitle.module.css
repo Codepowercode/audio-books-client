@@ -1,0 +1,24 @@
+.page-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*margin-top:100px;*/
+    /*margin-bottom: 50px;*/
+    padding-top: 40px;
+}
+
+.page-title > span:first-child {
+    font-family: PoppinsBold,sans-serif;
+    /*font-size: 4.9vw;*/
+    font-size: 4.4vw;
+    line-height: 44px;
+    color: rgba(25, 3, 43, 0.03);
+    white-space: nowrap;
+}
+
+.page-title > span:last-child {
+    font-family: PoppinsBold, sans-serif;
+    font-size: 36px;
+    line-height: 54px;
+    color: rgba(25, 3, 43, 1);
+}

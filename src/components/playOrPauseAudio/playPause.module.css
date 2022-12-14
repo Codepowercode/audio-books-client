@@ -1,0 +1,26 @@
+.play-btn{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: inherit;
+    cursor: pointer;
+    color: rgba(88, 128, 75, 1);
+    border-radius: 6px;
+    border: 1px solid rgba(88, 128, 75, 1);
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 24px;
+    width: 180px;
+    text-transform: uppercase;
+    padding: 10px;
+    font-family: PoppinsMedium, sans-serif;
+
+}
+
+.play-btn > img {
+    filter: brightness(0) saturate(100%) invert(45%) sepia(6%) saturate(2697%) hue-rotate(60deg) brightness(96%) contrast(85%);
+}
+
+.play-btn:focus{
+    outline: none;
+}

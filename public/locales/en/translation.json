@@ -1,0 +1,200 @@
+{
+  "common": {
+    "signIn": "Sign in",
+    "signUp": "Sign up",
+    "email": "Email",
+    "password": "Password",
+    "name": "Name",
+    "save": "Save",
+    "cancel": "Cancel",
+    "or": "or",
+    "wGoogle": "With Google Account",
+    "wFacebook": "With Facebook",
+    "pledge": "pledge for this book",
+    "startYourProject": "Start your project"
+  },
+  "header": {
+    "aboutUs": "About us",
+    "howItWorks": "How it works",
+    "projects": "projects",
+    "production": "Production",
+    "startProject": "Start a Project",
+    "library": "Library",
+    "contactUs": "contact Us",
+    "searchPl": "Search",
+    "subscription": "Subscription"
+  },
+  "share": {
+    "title": "share"
+  },
+  "signIn": {
+    "frgPass": "Forgot password?",
+    "haveAccount": "Already have an account?",
+    "title": "Welcome back"
+  },
+  "signUp": {
+    "confirmPass": "Confirm password",
+    "readAgree": "I read and agree to",
+    "terms": "Terms & Conditions ",
+    "haveAccount": "Already have an account?"
+  },
+  "cardPage": {
+    "title": "Card details",
+    "cardName": "Cardholder’s name",
+    "cardNumber": "Card number",
+    "expiryDate": "Expiration date",
+    "cvv": "CVV",
+    "save": "save card"
+  },
+  "createProject": {
+    "pageTitle": "Champion a book production",
+    "subTitle": "Please enter the information of the book you want to launch an audio production project. One of our team members will study the application and obtain the required approvals. In the event that approval is not obtained, you have the right to recover the entire amount or allocate it to another approved project.",
+    "bookTitleArabic": "Book title in Arabic",
+    "title": "Book Title",
+    "yearOfProduction": "Year of production",
+    "isbn": "ISBN",
+    "author": "Author name",
+    "pledge": "Your kickoff pledge",
+    "authorNameArabic": " Author name in Arabic",
+    "amount": "We need $100 or more in order to start the project. Amount will be returned if project does not get through.",
+    "submit": "send a request",
+    "required": "* Mandatory"
+  },
+  "pledgeBook": {
+    "amount": "Amount must be 10$ or more"
+  },
+  "subscription": {
+    "title": "Subscription Type",
+    "typeMonth": "Monthly",
+    "typeAnnualy": "Annually",
+    "textMonth": "subscribe to the monthly package by paying monthly",
+    "textAnnually": "subscribe to the monthly package by paying annually",
+    "priceMonth": "$4.99",
+    "priceYear": "$50",
+    "subscribe": "Subscribe",
+    "haveSubscribtion": "You already have an active subscription, it will end"
+  },
+  "emailVerifyPage": {
+    "title": "Verify your email",
+    "sent1": "We’ve sent an email to",
+    "sent2": "to verify your email address and activate your account.",
+    "click": "Click here",
+    "clickText": "If you did not receive an email or would like to change the email adress you signed up with."
+  },
+  "homePage": {
+    "title": "The #1 Crowdfunding platform to produce Arabic Literature in Arabic"
+  },
+  "bookList": {
+    "viewAll": "View All",
+    "subTitle": "Help start a new Audiobook in Arabic",
+    "projectTitle": "Projects",
+    "successfulTitle": "Some of our successful projects",
+    "productionTitle": "Productions",
+    "libraryTitle": "Library"
+  },
+  "singleBook": {
+    "author": "Author",
+    "goal": "The goal",
+    "donated": "Donated",
+    "time": "Time ends in",
+    "play": "Play Audio",
+    "narrator": "Narrator",
+    "genre": "Genre",
+    "publicYear": "Year of publication"
+  },
+  "libraryPage": {
+    "emptyBook": "Please Donate or get subscription plan"
+  },
+  "filter": {
+    "filter": "Filter by",
+    "author": "Author",
+    "narrator": "Narrator",
+    "genre": "Genre",
+    "publicYear": "Year of publication",
+    "status": "Status"
+  },
+  "pledgeInfo": {
+    "title": "Minimum contribution is $10.",
+    "10": "10$ will grant you a copy of the final audiobook.",
+    "50": "50$ will grant you a free subscription for 1 year.",
+    "100": "100$ will grant you a signed letter from the author."
+  },
+  "pledgedUser": {
+    "title": "Who pledged for this book",
+    "total": "Total",
+    "users": "contributors"
+  },
+  "listenRead": {
+    "listen": "Listen book",
+    "read": "Read text"
+  },
+  "howItWorks": {
+    "title": "How it works",
+    "description": "You can either nominate and champion an Arabic book that you are passionate about turning into an Audiobook or support an existing crowdfunding project. The platform will help you crowdfund for it and will oversee the production process, once the fundraising goal is reached. In a short time, a new Arabic audiobook will be created, thanks to you!",
+    "signUp": "Sign Up",
+    "startProject": " Start a project or choose an existing one",
+    "pledge": "pledge to support that project",
+    "enjoy": "Enjoy the Audiobook you supported!"
+  },
+  "footer": {
+    "email": "info@Nashir.app",
+    "info": "C   2022 All Rights Reserved. Terms of Use and Privacy Policy",
+    "location": "Nashir publishing house LLC\n7199 S Kingery Hwy #1087\nWillowbrook, IL 60527\n"
+  },
+  "contactUs": {
+    "title": "Contact us",
+    "inquiry": "Inquiry",
+    "message": "Message",
+
+    "submit": "Submit"
+  },
+  "forgotPassword": {
+    "title": "Forgot Password",
+    "message": "Check your email for password reset link"
+  },
+  "resetPassword": {
+    "title": "Resset Password"
+  },
+  "myAccount": {
+    "title": "My account"
+  },
+  "profile": {
+    "start": "Start new project",
+    "projects": "My Projects",
+    "audioBooks": "My Audiobooks",
+    "settings": "Profile settings",
+    "wishlist": "Wishlist",
+    "help": "Help center",
+    "out": "Log out"
+  },
+  "donatedProjects": {
+    "title": "My Projects List"
+  },
+  "donatedAudioBooks": {
+    "title": "My AudioBook List"
+  },
+  "profileSettings": {
+    "account": "my account",
+    "title": "Profile settings",
+    "gender": "Gender",
+    "country": "Country",
+    "bDay": "Date of birthday",
+    "male": "Male",
+    "female": "Female"
+  },
+  "aboutUs": {
+    "title": "About us",
+    "description": "The idea of Nashir.App came after witnessing firsthand the challenging facing Arabic literature in the Arab world and the huge disconnect between the Arabic literature industry and the customers based in North America and western Europe. We believe in the enlightening power of knowledge and want to create a tool where all of us can contribute to the advancement of the Arabic book publishing industry. \nAudiobook usage is at an all-time high and is nearing the level of printed and e-book consumption, especially with younger audiences.\nArab audiobook industry is rapidly growing, but it remains constrained in its geography and genres. Non-fiction books that tackle serious topics are at the mercy of censorship. Nashir is able to rise above these challenges and allows us all to decide what we listen to. \nNashir.App gives you the power to choose the books you want to elevate and helps us all share the task to bring it to light.\nThe platform splits the income with the authors, creating a new revenue stream for them to help them continue. Traditional publishing has long ceased to play that role for the vast majority of authors in the Arab world.\nOur goal is to revolutionize Arab knowledge production and distribution, create a unique audiobook platform that escapes all the red tapes, and put forward a tool to enrich the Arabic audio library."
+  },
+  "howItWorksPage": {
+    "title": "How it works",
+    "step1": "You choose a book in Arabic that you would like to have as an audiobook",
+    "step2": "Champion the audiobook production by committing $100 or more.",
+    "step3": "We will crowdfund the rest of the production cost, together!",
+    "step4": "You have enriched the Arabic library and created a new audiobook that will last forever and benefit millions!"
+  },
+  "paginate": {
+    "next": "Next",
+    "back": "Back"
+  }
+}

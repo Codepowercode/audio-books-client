@@ -1,0 +1,29 @@
+.container {
+    width: 100%;
+}
+.container > span {
+    font-family: PoppinsLight,sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(88, 128, 75, 1);
+    text-align: center;
+    display: block;
+}
+
+.container-styles {
+    height: 6px;
+    width: 100%;
+    background-color: rgba(189, 189, 189, 1);
+    border-radius: 8px;
+}
+.filler-styles {
+    height: 100%;
+    /*width: `${completed}%`,*/
+    background-color:rgba(46, 55, 62, 1);
+    border-radius: inherit;
+}
+.label-styles {
+    padding: 5px;
+    color: #FFFFFF;
+    font-weight: bold;
+}

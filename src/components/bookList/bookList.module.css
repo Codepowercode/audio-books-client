@@ -1,0 +1,94 @@
+.main-book-list {
+  /*background-color: #E5E5E5;*/
+  width: 100%;
+  /*padding-bottom: 130px;*/
+}
+
+.book-list {
+  max-width: 75%;
+  margin: 0 auto;
+  display: flex;
+  /* justify-content: flex-end; */
+  width: 100%;
+  flex-wrap: wrap;
+  grid-column-gap: 10px;
+  grid-row-gap: 30px;
+}
+.book-list_ar {
+  max-width: 75%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  flex-wrap: wrap;
+  grid-column-gap: 10px;
+  grid-row-gap: 30px;
+}
+
+.audio-header-photo {
+  padding: 15px 0;
+  text-align: center;
+}
+
+.audio-header-photo img {
+  max-width: 100%;
+}
+
+.audio-header-photo p {
+  font-size: 16px;
+  color: #646464;
+}
+
+.view-btn {
+  display: block;
+  margin: 30px auto;
+  width: 70px;
+  text-decoration: underline;
+  text-align: center;
+  border: none;
+  outline: none;
+  color: #00a591;
+  background: none;
+}
+
+.book-list-head {
+  margin: 100px 0 50px;
+  text-align: center;
+}
+
+.book-list-head h2 {
+  font-size: 96px;
+  color: rgba(25, 3, 43, 0.03);
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.book-list-head h4 {
+  font-size: 36px;
+  font-weight: 700;
+}
+.filter-container {
+  margin-bottom: 38px;
+}
+
+#start-project {
+  font-family: PoppinsMedium, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  position: fixed;
+  right: 10px;
+  left: 89%;
+  top: 82%;
+  border-radius: 6px;
+  background: rgba(178, 65, 69, 1);
+  padding: 15px 10px;
+  text-transform: capitalize;
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  max-width: 183px;
+  text-align: center;
+}
+.start-project {
+  right: 0 !important;
+  left: 44px !important;
+}
