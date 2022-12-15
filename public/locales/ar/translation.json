@@ -33,8 +33,8 @@
     "haveAccount": "لا تمتلك حساباً بعد؟"
   },
   "signUp": {
-    "confirmPass": "تأكيد كلمة السر",
-    "readAgree": "تأكيد كلمة المرور أوافق على ",
+    "confirmPass": "تأكيد كلمة المرور",
+    "readAgree": " أوافق على " ,
     "terms": "على سياسات عمل المنصة",
     "haveAccount": "لديك حساب؟"
   },
